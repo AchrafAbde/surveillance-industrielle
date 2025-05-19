@@ -39,3 +39,17 @@ venv\Scripts\activate  # Windows
 source venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 python app.py
+Frontend (React)
+bash
+CopyInsert
+cd surveillance-ouvriers-frontend
+npm install
+npm start
+Accès à l'application
+URL: http://localhost:3000
+Identifiants administrateur par défaut:
+Nom d'utilisateur: admin
+Mot de passe: admin123
+Identifiants autant que Worker :
+Nom d'utilisateur: worker
+Mot de passe: worker123

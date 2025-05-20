@@ -32,22 +32,22 @@ Un système de surveillance pour les environnements industriels avec détection 
 - npm
 
 ### Backend (Flask)
-
+```bash
 cd surveillance-ouvriers-backend
 python -m venv venv
 venv\Scripts\activate  # Windows
 source venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 python app.py
-
+```
 ### Frontend (React)
-
+```bash
 bash
 CopyInsert
 cd surveillance-ouvriers-frontend
 npm install
 npm start
-
+```
 ### Accès à l'application
 
 URL: http://localhost:3000

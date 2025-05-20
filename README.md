@@ -42,8 +42,6 @@ python app.py
 ```
 ### Frontend (React)
 ```bash
-bash
-CopyInsert
 cd surveillance-ouvriers-frontend
 npm install
 npm start

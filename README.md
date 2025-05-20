@@ -32,7 +32,7 @@ Un système de surveillance pour les environnements industriels avec détection 
 - npm
 
 ### Backend (Flask)
-```bash
+
 cd surveillance-ouvriers-backend
 python -m venv venv
 venv\Scripts\activate  # Windows
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 python app.py
 
 ### Frontend (React)
-```bash
+
 bash
 CopyInsert
 cd surveillance-ouvriers-frontend
@@ -52,10 +52,10 @@ npm start
 
 URL: http://localhost:3000
 
-Identifiants administrateur par défaut:
+#### Identifiants administrateur par défaut:
 Nom d'utilisateur: admin
 Mot de passe: admin123
 
-Identifiants autant que Worker :
+#### Identifiants autant que Worker :
 Nom d'utilisateur: worker
 Mot de passe: worker123
